@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Password Generator</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <a href="#" class="navbar-brand">Random Password Generator</a>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-12 mx-auto">
+          <div class="content">
+            <h4>Random Password Generator</h4>
+            <br />
+            <input type="text" id="display" />
+            <br />
+            <input type="range" min="8" max="128" name="slider" id="slider" />
+            <br />
+            <div class="row">
+              <div class="col-2">
+                <input
+                  type="checkbox"
+                  name=""
+                  id="values-upper"
+                  checked="true"
+                />
+                <label for="values-upper">Upper Case</label>
+              </div>
+              <div class="col-2">
+                <input
+                  type="checkbox"
+                  name=""
+                  id="values-lower"
+                  checked="true"
+                />
+                <label for="values-lower">Lower Case</label>
+              </div>
+              <div class="col-2">
+                <input
+                  type="checkbox"
+                  name=""
+                  id="values-number"
+                  checked="true"
+                />
+                <label for="values-number">Numeric</label>
+              </div>
+              <div class="col-3">
+                <input
+                  type="checkbox"
+                  name=""
+                  id="values-special"
+                  checked="true"
+                />
+                <label for="values-special">Special Characters</label>
+              </div>
+            </div>
+            <button class="btn btn-secondary" onclick="generatePassword()">
+              Generate
+            </button>
+            <button class="btn btn-secondary" onclick="copyPassword()">
+              Copy to Clipboard
+            </button>
+            <div id="length"></div>
+          </div>
+          <div class="previous-passwords">
+            <b>Previously Generate Passwords</b>
+            <br />
+            <div id="lastNums"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="scripts.js"></script>
+  </body>
+</html>

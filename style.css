@@ -1,0 +1,20 @@
+label {
+  font-size: 0.75rem;
+}
+.content {
+  margin: 1rem 0;
+  background-color: lightgrey;
+  padding: 2rem;
+  width: 100%;
+}
+#display,
+#slider {
+  width: 100%;
+}
+#length {
+  display: inline-block;
+  width: 10rem;
+}
+.previous-passwords {
+  margin-bottom: 2rem;
+}
