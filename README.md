@@ -1,8 +1,15 @@
-# Homework 02 CSS Bootstrap
+# Homework 03 JavaScript
 
 > A simple javascript password generator styled with bootstrap.
 
-This is a class exercise in learning javascript and part of a full stack flex bootcamp.
+This is a class exercise in learning javascript and part of a full stack flex bootcamp. This implementation is based on a tutorial at https://www.youtube.com/watch?v=9sT03jEwcaw. It does not follow the instructor's solution or the starter files. It does meet the specified acceptance criteria.
+
+Here's how it differs
+
+- This implementation uses bootstrap instead of a float grid system.
+  - We're learning bootstrap, practice it on every possible occasion.
+- Input is restricted on the frontend to valid values with default, rather than being checked in javascript.
+- All input is gathered on the page versus prompts and alerts.
 
 ![](css-bootstrapHW.png)
 
@@ -14,7 +21,7 @@ git clone
 
 ## Usage example
 
-These pages can be used as an example of how to complete your homework assignment for Week 3. This implementation is based on a tutorial at https://www.youtube.com/watch?v=9sT03jEwcaw. It does not follow the instructor's solution or the starter files. It does meet the specified acceptance criteria.
+These pages can be used as an example of how to complete your homework assignment for Week 3. .
 
 \_For more examples and usage, please refer to the the course files on gitlab
 
@@ -31,7 +38,7 @@ This example is an aid and supplement to homework files to help you learn javasc
 
 ### Minimum Requirements for a passing grade
 
-- Please refer to to README.md file in the gitlab repo
+- Please refer to the README.md file in the gitlab repo
 
 ## How to submit your homework
 
@@ -77,4 +84,4 @@ Catherine Healey – [@cfhealey](https://twitter.com/cfhealey) – cathy.healey@
 
 Distributed under the MIT license. See `LICENSE` for more information.
 
-[https://c-healey.github.io/02-homework-css-bootstrap/](https://c-healey.github.io/02-homework-css-bootstrap/)
+[Visit Javascript Password Generator](c-healey.github.io/03-homework-javascript-gen-pass/index.htmll)
