@@ -84,4 +84,4 @@ Catherine Healey – [@cfhealey](https://twitter.com/cfhealey) – cathy.healey@
 
 Distributed under the MIT license. See `LICENSE` for more information.
 
-[Visit Javascript Password Generator](c-healey.github.io/03-homework-javascript-gen-pass/index.html)
+[Visit Javascript Password Generator](https://c-healey.github.io/03-homework-javascript-gen-pass/index.html)
